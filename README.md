@@ -32,7 +32,7 @@ The dataset contains 11,001 patient hospitalization records and includes patient
 ## Repository Contents
 
 - `healthcare_readmission_analysis.ipynb` — Data cleaning and exploratory data analysis
-- `01_healthcare_sql_analysis.sql` — SQL-based healthcare readmission analysis
+- `healthcare_sql_analysis.sql` — SQL-based healthcare readmission analysis
 - `healthcare_readmission_dashboard.twbx` — Tableau dashboard
 - `dashboard.png` — Dashboard preview
 
