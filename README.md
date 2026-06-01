@@ -11,6 +11,7 @@ This project analyzes factors associated with 30-day hospital readmissions using
 - Matplotlib
 - SQL (SQLite)
 - Tableau
+- Scikit-learn
 
 ## Dataset
 
@@ -24,16 +25,21 @@ The dataset contains 11,001 patient hospitalization records and includes patient
 - ICU patients experienced higher readmission rates (**20.82%**) than non-ICU patients (**14.80%**).
 - Patients with Chronic Kidney Disease had a higher readmission rate (**19.55%**) than patients without CKD (**12.07%**).
 - High-risk patients identified through SQL analysis had a readmission rate of **15.96%**, compared to **7.05%** for lower-risk patients.
-
+- Balanced Logistic Regression achieved the best performance for identifying readmitted patients, with a recall score of **58%**.
+- Addressing class imbalance significantly improved the model's ability to detect high-risk patients.
+  
 ## Dashboard
 
 ![Dashboard](dashboard.png)
 
 ## Repository Contents
 
+## Repository Contents
+
 - `healthcare_readmission_analysis.ipynb` — Data cleaning and exploratory data analysis
 - `healthcare_sql_analysis.sql` — SQL-based healthcare readmission analysis
 - `healthcare_readmission_dashboard.twbx` — Tableau dashboard
+- `healthcare_readmission_prediction.ipynb` — Machine learning models for readmission prediction
 - `dashboard.png` — Dashboard preview
 
 ## Skills Demonstrated
